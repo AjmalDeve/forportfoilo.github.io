@@ -1,0 +1,2375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-beta3-web/fontawesome-free-6.0.0-beta3-web/css/all.css">
+    <title>Ajmal hassan Portfolio</title>
+    <style>
+        * {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+body {
+  position: relative;
+}
+
+body .thanks_body {
+  z-index: 10000;
+  height: 100vh;
+  width: 98.8vw;
+  background-color: #071724;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 100%;
+  opacity: 0.4;
+  -webkit-transition: all 1.4s ease;
+  transition: all 1.4s ease;
+}
+
+body .thanks_body .content {
+  height: 50%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* transform: translate(-50%,-50%); */
+  margin-left: -5rem;
+  margin-top: 3rem;
+  color: aliceblue;
+}
+
+body .thanks_body h1 {
+  font-size: 5rem;
+  font-family: Algerian;
+  color: #04ffff;
+}
+
+body .thanks_body p {
+  padding: .5rem;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+body .thanks_body .btn {
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  background-color: #04ffff;
+}
+
+body .thanks_body .btn:hover {
+  background-color: aliceblue;
+}
+
+body .thanks_body a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #071724;
+}
+
+.form_section_getInToTuch {
+  color: #ffff;
+  background-color: #071724;
+  width: 98.8vw;
+  z-index: 9999;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  top: 100%;
+  left: 0;
+  overflow: hidden;
+  opacity: 0.4;
+  -webkit-transition: all 1.4s ease;
+  transition: all 1.4s ease;
+}
+
+.form_section_getInToTuch a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.form_section_getInToTuch .a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 20%;
+}
+
+.form_section_getInToTuch .a i {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 2.6rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.form_section_getInToTuch .a i:hover {
+  color: #04ffff;
+}
+
+.form_section_getInToTuch .a p {
+  font-size: 2rem;
+  padding-left: 5.8rem;
+  font-family: Algerian;
+  width: 80%;
+  height: 100%;
+  color: #04ffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form_section_getInToTuch form {
+  width: 50%;
+}
+
+.form_section_getInToTuch input[type="text"] {
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  background-color: #1b3c59;
+  width: 80%;
+  border: none;
+  padding: 1rem 2.2rem;
+  color: #ffff;
+  border-radius: .6rem;
+  font-size: 1.5rem;
+}
+
+.form_section_getInToTuch input[type="text"]:focus {
+  outline: 0.2rem solid #04ffff;
+}
+
+.form_section_getInToTuch input[type="text"]::-webkit-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.form_section_getInToTuch input[type="text"]:-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.form_section_getInToTuch input[type="text"]::-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.form_section_getInToTuch input[type="text"]::placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.form_section_getInToTuch input[type="email"] {
+  border-radius: .6rem;
+  margin-top: .5rem;
+  padding: 1rem 2.2rem;
+  color: #ffff;
+  background-color: #1b3c59;
+  width: 80%;
+  border: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.form_section_getInToTuch input[type="email"]:focus {
+  outline: 0.2rem solid #04ffff;
+}
+
+.form_section_getInToTuch input[type="email"]::-webkit-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.form_section_getInToTuch input[type="email"]:-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.form_section_getInToTuch input[type="email"]::-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.form_section_getInToTuch input[type="email"]::placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.form_section_getInToTuch textarea {
+  border-radius: .6rem;
+  color: #ffff;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #1b3c59;
+  margin-top: .6rem;
+  width: 81%;
+  resize: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.form_section_getInToTuch textarea:focus {
+  outline: 0.2rem solid #04ffff;
+}
+
+.form_section_getInToTuch textarea::-webkit-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.form_section_getInToTuch textarea:-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.form_section_getInToTuch textarea::-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.form_section_getInToTuch textarea::placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.form_section_getInToTuch .form_bt {
+  cursor: pointer;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding: .8rem 1.8rem;
+  border-radius: 2rem;
+  background-color: #04ffff;
+  font-family: Segoe UI;
+  width: 85%;
+  outline: none;
+  border: none;
+}
+
+.form_section_getInToTuch .form_bt:hover {
+  background-color: #ffff;
+}
+
+.hand_barger {
+  display: none;
+}
+
+.show_nav_bar {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  z-index: 10000;
+  height: 90vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Berlin Sans FB;
+  background-color: #1b3c59;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#nav_show {
+  cursor: pointer;
+}
+
+#nav_show i {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+#nav_show i:hover {
+  color: #04ffff;
+}
+
+.x {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.x i {
+  cursor: pointer;
+  margin-right: 10rem;
+  font-size: 2rem;
+  color: #ffff;
+}
+
+.show_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 80%;
+  width: 100%;
+}
+
+.show_links li {
+  margin: 1rem;
+  list-style: none;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.show_links li:hover {
+  color: #04ffff;
+}
+
+.show_links li:hover span {
+  color: #ffff;
+}
+
+.show_links a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.show_links span {
+  margin: .5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #071724;
+}
+
+.content_wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  border-radius: 1rem;
+  width: 1.6rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #071724;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #04ffff;
+  border-radius: 1rem;
+  border: 0.5rem solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffff;
+}
+
+.wrapp {
+  width: 98vw;
+  margin: 9.5rem auto 0rem auto;
+  color: #ffff;
+}
+
+.left_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 10vw;
+  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  left: -10%;
+  opacity: 0;
+}
+
+.leftAnim {
+  left: 0;
+  opacity: 1;
+  -webkit-transition: 1.5s ease;
+  transition: 1.5s ease;
+}
+
+.right_icons {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 10vw;
+  height: 100vh;
+  bottom: 0;
+  right: -10%;
+  opacity: 0;
+  -webkit-transition: 1.5s ease;
+  transition: 1.5s ease;
+}
+
+.rightAnim {
+  right: 0;
+  opacity: 1;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  width: 100%;
+  height: 13%;
+  margin-top: 37rem;
+}
+
+.icons i {
+  margin: .5rem 0rem;
+  font-size: 1.6rem;
+  color: #ffff;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.icons i:hover {
+  color: #04ffff;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 1.3rem;
+  margin-top: -7.5rem;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.icons a:hover {
+  color: #04ffff;
+}
+
+.icon_line {
+  border-radius: 1rem;
+  width: .2rem;
+  height: 30vh;
+  background-color: #04ffff;
+  margin: 1rem;
+}
+
+.nav {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  opacity: 1;
+  left: 0;
+  width: 100vw;
+  height: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #1b3c59;
+  -webkit-box-shadow: 0 0 10px #0a1f2f;
+          box-shadow: 0 0 10px #0a1f2f;
+  font-size: 1.6rem;
+  color: #ffff;
+}
+
+.nav .logo {
+  font-family: Algerian;
+  margin-right: 20rem;
+  margin: .5rem;
+  cursor: pointer;
+}
+
+.nav .logo .logo_span {
+  color: #04ffff;
+}
+
+.nav .nav_links {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 40%;
+}
+
+.nav .nav_links a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.nav .nav_links li {
+  font-family: Berlin Sans FB;
+  font-size: 1.7rem;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.nav .nav_links li:hover {
+  color: #04ffff;
+}
+
+.nav .nav_links li:hover span {
+  color: #ffff;
+}
+
+.nav .nav_links span {
+  font-size: 1.6rem;
+  color: #04ffff;
+  font-family: century gothic;
+}
+
+.navAnim {
+  top: 0;
+  opacity: 1;
+}
+
+.home {
+  overflow: hidden;
+  height: 100vh;
+  font-size: 2rem;
+  font-family: Segoe UI;
+  overflow: hidden;
+  margin-top: -8rem;
+}
+
+.home a {
+  color: #071724;
+  text-decoration: none;
+}
+
+.home .content_home {
+  margin: 10rem 20rem 10rem 28rem;
+}
+
+.home .hy_my_name {
+  cursor: pointer;
+  color: #04ffff;
+  padding-bottom: 7rem;
+  opacity: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+  padding-top: 5rem;
+}
+
+.home .name {
+  cursor: pointer;
+  font-family: Algerian;
+  font-size: 3rem;
+  opacity: 0;
+  padding-bottom: 1.4rem;
+  -webkit-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.home .intro {
+  opacity: 0;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 3rem;
+  padding-bottom: .4rem;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.home .more_intro {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+  opacity: 0;
+}
+
+.home .getIntuch {
+  opacity: 0;
+  background: #04ffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 1.6rem;
+  color: #071724;
+  padding-top: 1rem;
+  margin-top: 3rem;
+  -webkit-transition: color , background-color .5s ease;
+  transition: color , background-color .5s ease;
+  -webkit-transition: opacity 2s ease;
+  transition: opacity 2s ease;
+}
+
+.home .getIntuch:hover {
+  background-color: #ffff;
+}
+
+.home .btn {
+  opacity: 0;
+  font-size: 1.2rem;
+  padding: 4.5rem .8rem 0rem .3rem;
+  padding-top: 5rem;
+  color: #04ffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.home .fa-arrow-down {
+  padding-top: .2rem;
+  padding-left: 2rem;
+  -webkit-animation: dwoun .9s 4s  ease  infinite;
+          animation: dwoun .9s 4s  ease  infinite;
+}
+
+.home .main_home {
+  margin-bottom: -50rem;
+  opacity: 1;
+}
+
+.home .nameA {
+  opacity: 1;
+}
+
+.home .introo {
+  opacity: 1;
+}
+
+.home .mortIN {
+  opacity: 1;
+}
+
+.home .btnA {
+  opacity: 1;
+}
+
+.home .hy {
+  padding-bottom: 3rem;
+  opacity: 1;
+}
+
+.home .scroll {
+  opacity: 1;
+}
+
+@-webkit-keyframes dwoun {
+  0% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: .3rem;
+  }
+  50% {
+    margin-top: -0.3rem;
+  }
+  75% {
+    margin-top: .3rem;
+  }
+  100% {
+    margin-top: -0.3rem;
+  }
+}
+
+@keyframes dwoun {
+  0% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: .3rem;
+  }
+  50% {
+    margin-top: -0.3rem;
+  }
+  75% {
+    margin-top: .3rem;
+  }
+  100% {
+    margin-top: -0.3rem;
+  }
+}
+
+.About {
+  margin-top: 5rem;
+  overflow: hidden;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.About .about_wrapp {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 69%;
+  font-size: 2rem;
+  font-family: Segoe UI;
+}
+
+.About .about_wrapp .about_left_content {
+  padding-top: 10rem;
+  opacity: 0;
+  text-align: justify;
+  width: 50%;
+  height: 100%;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.About .about_wrapp .about_left_content .heading {
+  font-family: century gothic;
+  font-weight: 200;
+  padding: 8rem 0 6rem 0;
+}
+
+.About .about_wrapp .about_left_content .heading .heading_num {
+  font-family: century gothic;
+  color: #04ffff;
+}
+
+.About .about_wrapp .about_left_content .heading .heading_anim {
+  width: 19.5rem;
+  height: .3rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.703);
+  position: relative;
+  overflow: hidden;
+}
+
+.About .about_wrapp .about_left_content .heading .heading_anim .dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffff;
+  width: .8rem;
+  height: 100%;
+  -webkit-animation: dote 2s ease infinite;
+          animation: dote 2s ease infinite;
+}
+
+@-webkit-keyframes dote {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes dote {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.About .about_wrapp .about_left_content .download_cv {
+  margin-top: 1.9rem;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  color: #071724;
+  font-weight: 600;
+  cursor: pointer;
+  background: #04ffff;
+}
+
+.About .about_wrapp .about_left_content .download_cv:hover {
+  background-color: #ffff;
+}
+
+.About .about_wrapp .about_right_content {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20rem;
+  opacity: 0;
+  -webkit-transition: all 2.2s ease;
+  transition: all 2.2s ease;
+}
+
+.About .about_wrapp .about_right_content .img_div {
+  border-top: .4rem solid;
+  border-bottom: .4rem solid;
+  border-color: #04ffff;
+  margin-top: -5rem;
+  width: 35%;
+  height: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.About .about_wrapp .about_right_content .img_div img {
+  cursor: pointer;
+  -webkit-transition: margin .4s ease;
+  transition: margin .4s ease;
+  -webkit-transition: -webkit-transform 1.5s ease;
+  transition: -webkit-transform 1.5s ease;
+  transition: transform 1.5s ease;
+  transition: transform 1.5s ease, -webkit-transform 1.5s ease;
+}
+
+.About .about_wrapp .about_right_content .img_div img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  margin: .5rem;
+}
+
+.Skills {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.Skills .skills_wrapp {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 69%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2rem;
+  font-family: Segoe UI;
+  margin: 10rem auto;
+  margin-top: 25rem;
+}
+
+.Skills .skills_wrapp .heading {
+  font-family: century gothic;
+  font-weight: 200;
+  margin-top: 10rem;
+}
+
+.Skills .skills_wrapp .heading .heading_num {
+  font-family: century gothic;
+  color: #04ffff;
+}
+
+.Skills .skills_wrapp .heading .heading_anim {
+  width: 17.5rem;
+  height: .3rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.703);
+  position: relative;
+  overflow: hidden;
+}
+
+.Skills .skills_wrapp .heading .heading_anim .dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffff;
+  width: .8rem;
+  height: 100%;
+  -webkit-animation: dote 2s ease infinite;
+          animation: dote 2s ease infinite;
+}
+
+@keyframes dote {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.Skills .skills_wrapp .skills_content {
+  margin-top: 2.9rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 60%;
+}
+
+.Skills .skills_wrapp .skills_content .frontEndSkills {
+  padding-top: 10rem;
+  opacity: 0;
+  -webkit-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+  width: 50%;
+}
+
+.Skills .skills_wrapp .skills_content .frontEndSkills img {
+  padding: .2rem;
+}
+
+.Skills .skills_wrapp .skills_content .frontEndSkills .front_heading {
+  font-family: century gothic;
+  padding: .5rem .5rem .5rem 0;
+}
+
+.Skills .skills_wrapp .skills_content .frontEndSkills .front_para {
+  font-weight: 200;
+  font-size: 1.6rem;
+  color: #04ffff;
+}
+
+.Skills .skills_wrapp .skills_content .otherSkills {
+  padding-top: 10rem;
+  opacity: 0;
+  width: 50%;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+.Skills .skills_wrapp .skills_content .otherSkills img {
+  padding: .4rem;
+}
+
+.Skills .skills_wrapp .skills_content .otherSkills .other_heading {
+  font-family: century gothic;
+  padding: .5rem .5rem .5rem 0;
+}
+
+.Skills .skills_wrapp .skills_content .otherSkills .other_para {
+  font-weight: 200;
+  font-size: 1.6rem;
+  color: #04ffff;
+}
+
+.Projects {
+  overflow: hidden;
+  width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Projects .projects_wrapp {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 70%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2rem;
+  font-family: Segoe UI;
+  margin: 10rem auto;
+}
+
+.Projects .projects_wrapp .heading {
+  width: 100%;
+  font-family: century gothic;
+  font-weight: 200;
+}
+
+.Projects .projects_wrapp .heading .heading_num {
+  font-family: century gothic;
+  color: #04ffff;
+}
+
+.Projects .projects_wrapp .heading .heading_anim {
+  width: 21.5rem;
+  height: .3rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.703);
+  position: relative;
+  overflow: hidden;
+}
+
+.Projects .projects_wrapp .heading .heading_anim .dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffff;
+  width: .8rem;
+  height: 100%;
+  -webkit-animation: dote 2s ease infinite;
+          animation: dote 2s ease infinite;
+}
+
+@keyframes dote {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.Projects .projects_wrapp .projects_content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Projects .projects_wrapp .projects_content .projects_intro_para {
+  height: 10%;
+  width: 100%;
+  margin-top: .5rem;
+  margin: 1rem;
+  font-family: Segoe UI;
+  text-align: center;
+}
+
+.Projects .projects_wrapp .projects_content .box {
+  opacity: 0;
+  border-radius: .4rem;
+  margin: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  font-size: 1.3rem;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #1b3c59;
+  -webkit-transition: 1.4s ease;
+  transition: 1.4s ease;
+  margin: 5rem;
+  margin-top: 10rem;
+}
+
+.Projects .projects_wrapp .projects_content .box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.Projects .projects_wrapp .projects_content .box .box_title {
+  color: #04ffff;
+  font-size: 1.6rem;
+}
+
+.Projects .projects_wrapp .projects_content .box .box_details {
+  color: rgba(255, 255, 255, 0.705);
+  width: 80%;
+  font-weight: 200;
+}
+
+.Projects .projects_wrapp .projects_content .box .box_leanguage {
+  font-size: 1.2rem;
+  padding: .5rem;
+  font-family: century gothic;
+  font-weight: 200;
+}
+
+.Projects .projects_wrapp .projects_content .box .projects_content:nth-child(1) {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.Projects .projects_wrapp .projects_content .box .projects_content:nth-child(2) {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.Projects .projects_wrapp .projects_content .box .projects_content:nth-child(3) {
+  -webkit-transition: all 1.3s ease;
+  transition: all 1.3s ease;
+}
+
+.Projects .projects_wrapp .projects_content .box .projects_content:nth-child(4) {
+  -webkit-transition: all 1.6s ease;
+  transition: all 1.6s ease;
+}
+
+.Projects .projects_wrapp .projects_content .box .projects_content:nth-child(5) {
+  -webkit-transition: all 1.9s ease;
+  transition: all 1.9s ease;
+}
+
+.Projects .projects_wrapp .projects_content .box .projects_content:nth-child(6) {
+  -webkit-transition: all 2.2s ease;
+  transition: all 2.2s ease;
+}
+
+.Projects .projects_wrapp .projects_content .box .projects_content:nth-child(7) {
+  -webkit-transition: all 5s ease;
+  transition: all 5s ease;
+}
+
+.Contect {
+  position: relative;
+  overflow: hidden;
+  padding-top: 10rem;
+  margin-top: 10rem;
+  height: 100vh;
+  width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Contect .contect_wrapp {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 70%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2rem;
+  font-family: Segoe UI;
+  margin: 10rem auto;
+}
+
+.Contect .contect_wrapp .heading {
+  width: 100%;
+  font-family: century gothic;
+  font-weight: 200;
+}
+
+.Contect .contect_wrapp .heading .heading_num {
+  font-family: century gothic;
+  color: #04ffff;
+}
+
+.Contect .contect_wrapp .heading .heading_anim {
+  width: 21.5rem;
+  height: .3rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.703);
+  position: relative;
+  overflow: hidden;
+}
+
+.Contect .contect_wrapp .heading .heading_anim .dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffff;
+  width: .8rem;
+  height: 100%;
+  -webkit-animation: dote 2s ease infinite;
+          animation: dote 2s ease infinite;
+}
+
+@keyframes dote {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.Contect .contect_wrapp .contect_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Contect .contect_wrapp .contect_content .form_section {
+  margin-top: 4rem;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Contect .contect_wrapp .contect_content .form_section input[type="text"] {
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  background-color: #1b3c59;
+  width: 80%;
+  border: none;
+  padding: 1rem 2.2rem;
+  color: #ffff;
+  border-radius: .6rem;
+  font-size: 1.5rem;
+}
+
+.Contect .contect_wrapp .contect_content .form_section input[type="text"]:focus {
+  outline: 0.2rem solid #04ffff;
+}
+
+.Contect .contect_wrapp .contect_content .form_section input[type="text"]::-webkit-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.Contect .contect_wrapp .contect_content .form_section input[type="text"]:-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.Contect .contect_wrapp .contect_content .form_section input[type="text"]::-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.Contect .contect_wrapp .contect_content .form_section input[type="text"]::placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.Contect .contect_wrapp .contect_content .form_section input[type="email"] {
+  border-radius: .6rem;
+  margin-top: .5rem;
+  padding: 1rem 2.2rem;
+  color: #ffff;
+  background-color: #1b3c59;
+  width: 80%;
+  border: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.Contect .contect_wrapp .contect_content .form_section input[type="email"]:focus {
+  outline: 0.2rem solid #04ffff;
+}
+
+.Contect .contect_wrapp .contect_content .form_section input[type="email"]::-webkit-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.Contect .contect_wrapp .contect_content .form_section input[type="email"]:-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.Contect .contect_wrapp .contect_content .form_section input[type="email"]::-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.Contect .contect_wrapp .contect_content .form_section input[type="email"]::placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.Contect .contect_wrapp .contect_content .form_section textarea {
+  border-radius: .6rem;
+  color: #ffff;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #1b3c59;
+  margin-top: .6rem;
+  width: 81%;
+  resize: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.Contect .contect_wrapp .contect_content .form_section textarea:focus {
+  outline: 0.2rem solid #04ffff;
+}
+
+.Contect .contect_wrapp .contect_content .form_section textarea::-webkit-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.Contect .contect_wrapp .contect_content .form_section textarea:-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.Contect .contect_wrapp .contect_content .form_section textarea::-ms-input-placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.Contect .contect_wrapp .contect_content .form_section textarea::placeholder {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-family: Segoe UI;
+}
+
+.Contect .contect_wrapp .contect_content .form_section .form_btn {
+  cursor: pointer;
+  margin-left: -1rem;
+  margin-top: 1rem;
+  padding: .8rem 1.8rem;
+  border-radius: 2rem;
+  background-color: #04ffff;
+  font-family: Segoe UI;
+  outline: none;
+  border: none;
+  width: 93%;
+}
+
+.Contect .contect_wrapp .contect_content .form_section .form_btn:hover {
+  background-color: #ffff;
+}
+
+.Contect .contect_wrapp .contect_content .location_section {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Contect .contect_wrapp .contect_content .location_section .div {
+  margin: 1rem;
+  margin-top: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Contect .contect_wrapp .contect_content .location_section .div i {
+  cursor: pointer;
+  width: 20%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: rgba(255, 255, 255, 0.703);
+  font-size: 1.8rem;
+}
+
+.Contect .contect_wrapp .contect_content .location_section .div .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Contect .contect_wrapp .contect_content .location_section .div .wrap .location_heading {
+  font-family: rgba(255, 255, 255, 0.703);
+  font-family: Algerian;
+  font-weight: 200;
+  font-size: 2rem;
+  color: #04ffff;
+}
+
+.Contect .contect_wrapp .contect_content .location_section .div .wrap .email_heading {
+  color: #04ffff;
+  font-size: 2rem;
+  font-family: rgba(255, 255, 255, 0.703);
+  font-family: Algerian;
+  font-weight: 200;
+}
+
+.Contect .contect_wrapp .contect_content .location_section .div .wrap .call_heading {
+  font-family: Algerian;
+  color: #04ffff;
+  font-size: 2rem;
+  font-weight: 200;
+  font-family: rgba(255, 255, 255, 0.703);
+}
+
+.Contect .contect_wrapp .contect_content .location_section .div .wrap .location_path {
+  font-weight: 200;
+  margin-top: .5rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-size: 1.4rem;
+}
+
+.Contect .contect_wrapp .contect_content .location_section .div .wrap .call_number {
+  font-weight: 200;
+  margin-top: .5rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-size: 1.4rem;
+}
+
+.Contect .contect_wrapp .contect_content .location_section .div .wrap .email_txt {
+  font-weight: 200;
+  margin-top: .5rem;
+  color: rgba(255, 255, 255, 0.703);
+  font-size: 1.4rem;
+}
+
+.Contect .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 10vh;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.703);
+  cursor: pointer;
+}
+
+.Contect .footer:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 870px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 740px) {
+  html {
+    font-size: 45%;
+  }
+  .leftAnim {
+    display: none;
+  }
+  .home .content_home {
+    margin: 19rem 13rem 5rem 8rem;
+  }
+  .rightAnim {
+    display: none;
+  }
+  .About .about_wrapp .about_right_content .img_div img {
+    width: 20rem;
+  }
+  .About .about_wrapp .about_right_content {
+    height: 90%;
+  }
+  .About .about_wrapp .about_left_content .heading {
+    padding: 16rem 0 6rem 0;
+  }
+  .About .about_wrapp .about_right_content {
+    padding-top: 13rem;
+  }
+  .Skills .skills_wrapp .skills_content .frontEndSkills {
+    width: 40%;
+  }
+  .Skills .skills_wrapp .skills_content .frontEndSkills img {
+    padding: 0.3rem;
+    width: 4rem;
+    padding-top: 1rem;
+  }
+  .Skills .skills_wrapp .skills_content .otherSkills {
+    width: 40%;
+  }
+  .Skills .skills_wrapp .skills_content .otherSkills img {
+    padding: 0.3rem;
+    width: 4rem;
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Projects {
+    width: auto;
+    height: auto;
+  }
+  .Projects .projects_wrapp .projects_content .box {
+    width: 40%;
+    margin: 2rem;
+    height: 25rem;
+  }
+}
+
+@media (max-width: 671px) {
+  .About .about_wrapp .about_right_content {
+    height: 93%;
+  }
+}
+
+@media (max-width: 590px) {
+  .nav .nav_links {
+    width: 50%;
+  }
+}
+
+@media (max-width: 530px) {
+  .About .about_wrapp .about_right_content {
+    height: 50%;
+  }
+  .hand_barger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav .nav_links {
+    width: 50%;
+    display: none;
+  }
+  html {
+    font-size: 43%;
+  }
+  .home {
+    height: 90vh;
+  }
+  .home .content_home {
+    margin: 12rem 13rem 5rem 8rem;
+  }
+  .About {
+    height: 120vh;
+  }
+  .About .about_wrapp .about_left_content {
+    text-align: start;
+    width: 100%;
+    height: 45%;
+  }
+  .Skills {
+    height: 67vh;
+  }
+  .Skills .skills_wrapp .skills_content .frontEndSkills {
+    width: 100%;
+  }
+  .Skills .skills_wrapp .skills_content .otherSkills {
+    width: 100%;
+  }
+  .Projects {
+    width: auto;
+    height: auto;
+  }
+  .Projects .projects_wrapp .projects_content .box {
+    width: 80%;
+    margin: 2rem;
+    height: 25rem;
+  }
+  .Contect {
+    height: auto;
+    width: auto;
+  }
+  .Contect .contect_wrapp .contect_content .form_section {
+    width: 100%;
+  }
+  .Contect .contect_wrapp .contect_content .location_section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 390px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-widht: 310px) {
+  html {
+    font-size: 30%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
+    </style>
+</head>
+<body>
+    <!-- another form code  -->
+
+    <div class="form_section_getInToTuch" id="anim_back_to_home">
+        <div class="a">
+            <p>Contect Me</p>
+    <i class="fa-solid fa-xmark-large" id="anotherBtnClose" >X</i>
+        </div>
+        <form  onsubmit="fun()" id="form">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <textarea  id="text" cols="30" rows="10" placeholder="Your massage"></textarea>
+            <button type="submit" class="form_bt">Send -></button>
+        </form>
+    </div> 
+
+    <!-- thanks page code -->
+    <div class="thanks_body" id="pageOfThanks">
+    <div class="content">
+        <h1>Thank  You !</h1>
+        <p>for contect me</p>
+        <button class="btn" id="close_btn_of_thanksPage"> Back To Home</button> 
+    </div>
+    </div>
+
+
+    <div class="show_nav_bar" id="nav">
+    <div class="x"><i id="close_btn" class="fa-solid fa-xmark-large">X</i></div>
+        <ul class="show_links" >
+        <a class="a" href="#hme">   <li><span>1</span>. Home</li></a>
+        <a class="a" href="#about">   <li><span>2</span>. About</li></a>
+         <a class="a" href="#skills"><li><span>3</span>. Skills</li></a>
+           <a class="a" href="#projects"><li><span>4</span>. Projects</li></a>
+           <a class="a" href="#contect"><li><span>5</span>. Contect</li></a>
+        </ul>
+
+    </div>
+    <div class="nav" id="anim">
+             
+        <!-- logo -->
+        <h2 class="logo">
+            A<span class="logo_span"> !</span> J
+        </h2>
+        <div class="hand_barger" id="nav_show" ><i class="fa-solid fa-bars" ></i></div>
+        <!-- list code -->
+        <ul class="nav_links">
+         <a href="#hme">   <li><span>1</span>. Home</li></a>
+         <a href="#about">   <li><span>2</span>. About</li></a>
+          <a href="#skills"><li><span>3</span>. Skills</li></a>
+            <a href="#projects"><li><span>4</span>. Projects</li></a>
+            <a href="#contect"><li><span>5</span>. Contect</li></a>
+        
+        </ul>
+
+    </div>
+    <div class="left_icons" id="left_anim"> 
+       <div class="icons">
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+    </div>
+    <div class="icon_line"></div>
+</div>
+    <div class="wrapp">
+        <!-- left icons -->
+        
+        <div id="hme"></div>
+        <div class="contect_wrapp">
+        <!-- home section code -->
+        <section class="home" id="main_hme">
+        <div class="content_home" id="content_hom">
+            <p class="hy_my_name" id="home_hy">
+                Hi, my name is 
+            </p>
+            <h1 class="name" id="home_name">
+                Ajmal Hassan.
+            </h1>
+            <h3 class="intro" id="home_intro">
+                I develop web based components and systems.
+            </h3>
+            <p class="more_intro" id="home_mortIN">
+                I'm a frontend developer with basic knowledge in designing User interface and develop <br> real life interactions.
+            </p>
+           <button class="getIntuch" id="home_btn" > Get in touch</button>
+            <div class="btn" id="home_scroll"> <p> Scroll Dwon</p> <i class="fa-solid fa-arrow-down" id="doun"></i></div>
+        </div>
+               
+        
+        </section>
+        
+        <!-- About section code -->
+        <div id="about"></div>
+        <section class="About" >
+            <div class="about_wrapp" id="about_section" >
+            <div class="about_left_content" id="about_left">
+                <!-- heading code -->
+                <div class="heading">
+                <h2><span class="heading_num">02.</span> About Me</h2>
+                <div class="heading_anim"> <span class="dot"></span> </div>
+                </div>
+
+                <!-- content code -->
+                <p class="about_content">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Accusantium rerum ea
+                    ratione culpa voluptate necessitatibus 
+                    ab quam maxime explicabo, id earum 
+                    voluptatem autem? Voluptate laudantium, 
+                    porr
+                    o vero delectus tempora inventore.
+                </p>
+               <a href="/Ajmal Hassan.pdf" target="_blank"> <button class="download_cv">Opne Cv</button> </a>
+
+            </div>
+            <!--  -->
+            <div class="about_right_content" id="about_right">
+                <div class="img_div">
+                <img src="./picFolder/s3.jpg" width="200px">
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Skills section code -->
+        <section class="Skills" id="skills">
+            <div class="skills_wrapp">
+                <!-- heading code -->
+                <div class="heading">
+                    <h2><span class="heading_num">03.</span> My Skills </h2>
+                    <div class="heading_anim"> <span class="dot"></span> </div>
+                </div>
+                <div class="skills_content" id="skill_section">
+                    <!-- content code -->
+                    <div class="frontEndSkills" id="skill_up">
+                        <h3 class="front_heading">Frontend Development</h3>
+                        <p class="front_para">Minimum 3 month Experince</p>
+                        <img width="50px" src="./picFolder/5847f5bdcef1014c0b5e489c.png" alt="">
+                        <img width="50px" src="./picFolder/css3-cascading-style-sheets-logo-html-world-wide-web-5ad2afb49cc7c192fd7d77b7f6bc6ee0.png" alt="">
+                        <img width="40px" src="./picFolder/sass-logo-7702.png" alt="">
+                        <img width="40px" src="./picFolder/images.png" alt="">
+                        <img width="40px" src="./picFolder/pngwing.com.png" alt="">
+                    </div>
+                    <div class="otherSkills" id="skill_down">
+                        <h3 class="other_heading">Other Skills</h3>
+                        <p class="other_para">Fresh</p>
+                        <img width="40px" src="./picFolder/Git-Icon-1788C.png" alt="">
+                        <img width="40px" src="./picFolder/PngItem_1280311.png" alt="">
+                      
+                    </div>
+                    
+                     
+                </div>
+                
+                
+            </div>
+        </section>
+        <!-- Project section code -->
+        <section class="Projects" id="projects">
+           
+            <div class="projects_wrapp">
+                <!-- heading code -->
+                <div class="heading">
+                    <h2><span class="heading_num">04.</span> My Projects </h2>
+                    <div class="heading_anim"> <span class="dot"></span> </div>
+                </div>
+                <div class="projects_content" id="project_anim">
+                   <h4 class="projects_intro_para">Here are some of the projects with my experience</h4>
+                   
+                        <!-- boxise -->
+                        
+                      
+                        <div class="box one "          >
+                            <img src="picFolder/Capture.PNG" width="220px" height="80px" >
+                            <p class="box_title">React website</p>
+                            <p class="box_details">This is React.js project this is not live and this is in my local computer</p>
+                            <p class="box_leanguage">REACT.Js</p>
+                        </div>
+                        <div class="box one "          >
+                            <img src="picFolder/weatherpor.png" width="100px" height="80px" >
+                            
+                            <a href="https://ajmaldeve.github.io/weatheragin.github.io/weatherApp.html" target="_blank">   
+                            <p class="box_title">Weather App</p>
+                            <p class="box_details">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque obcaecati maxime velit dolor ex esse labore distinctio assumenda minus sapiente..</p>
+                            <p class="box_leanguage">HTML Scss & JS</p></a>
+                        </div>
+                        <div class="box one "          >
+                            <img src="picFolder/addpor.png" width="220px" height="80px" >
+                            <a href="https://ajmaldeve.github.io/thisFinel.github.io/" target="_blank"> 
+                            
+                                <p class="box_title">Add Freinds App</p>
+                            <p class="box_details">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque obcaecati maxime velit dolor ex esse labore distinctio assumenda minus sapiente..</p>
+                             <p class="box_leanguage">HTML Scss & JS</p></a>
+                        </div>
+                    
+                        
+                    
+                     
+                </div>
+                
+                
+            </div>
+
+        </section>
+        <!-- Contect section code -->
+        <section class="Contect" id="contect">
+           
+            <div class="contect_wrapp">
+                <!-- heading code -->
+                <div class="heading">
+                    <h2><span class="heading_num">05.</span> Contect Me </h2>
+                    <div class="heading_anim"> <span class="dot"></span> </div>
+                </div>
+                <div class="contect_content">
+                    <!-- content code -->
+                    <!-- form section -->
+                    <div class="form_section">
+                        <form onsubmit="fun()" >
+                            <input type="text" placeholder="Full Name" id="fullName">
+                            <input type="email" placeholder="Email" id="email">
+                            <textarea  id="text" cols="30" rows="10" placeholder="Your massage"></textarea>
+                            <button type="submit" class="form_btn">Send -></button>
+                        </form>
+                    </div>              
+                    <!-- location section -->
+                    <div class="location_section">
+                        <div class="call_location div">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="wrap">
+                                <h2 class="call_heading" >Call Me</h2>
+                                <p class="call_number">0325 8561400</p>
+                            </div>
+                        </div>
+                        <div class="email_location div">
+                            <i class="fa-solid fa-at" ></i>
+                            <!-- <i class="fa-solid fa-paper-plane-top"></i> -->
+                            <div class="wrap">
+                                <h2 class="email_heading">Email</h2>
+                                <p class="email_txt">ajmalhassan@gmail.com</p>
+                            </div>
+                            
+                        </div>
+                        <div class="location_location div">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div class="wrap">
+                                <h2 class="location_heading">location</h2>
+                                <p class="location_path">Peshawar</p>
+                            </div>
+                            
+                        </div>
+                    </div>              
+                </div> 
+
+                <div class="footer">
+                    <p class="footer_content">develop by Ajmal hassan <span class="dinamac_date_footer">2022</span>&copy;</p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+        
+</div>
+<!-- right icons -->
+<div class="right_icons" id="right_anim">
+        <div class="icons">
+         <a href="#">ajmalhassan@gmail.com</a>
+         </div>
+        <div class="icon_line"></div>
+</div>
+
+
+<div class="form_section_getInToTuch" id="anim_back_to_home">
+    <div class="a">
+        <p>Contect Me</p>
+        <i class="fa-solid fa-xmark-large" ><a href="/index.html">X</a></i>
+    </div>
+    <form onsubmit="fun() ; reset() ; return false" id="form">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <textarea  id="text" cols="30" rows="10" placeholder="Your massage"></textarea>
+        <button type="submit" class="form_bt">Send -></button>
+    </form>
+</div> 
+
+    <script src="index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    
+    </script>
+    <script>
+function funSend(){
+    var name = document.getElementById('fullName').value;
+    var Email = document.getElementById('email').value;
+    var body = document.getElementById('text').value;
+
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "portfolioweb124000@gmail.com",
+        Password : "portfoliowebsite124000",
+        To : 'ajmalhassan124000@gmail.com',
+        From : "portfolioweb124000@gmail.com",
+        Subject : `This is the subject ${name} ${Email} `,
+        Body : `And this is the body ${body}`
+    }).then(
+        message =>alert(message)
+        
+        );
+        event.preventDefault();
+    }
+
+</script>
+<script>
+    // const navAnime = document.getElementById('anim'),
+// let nav = new IntersectionObserver((entry,obsever)=>{
+    //     let [enter]=entry;
+    //     console.log(enter)
+    //     if(enter.isIntersecting){
+        //        navAnime.classList.add('navAnim') 
+        //     }else{
+            //         navAnime.classList.remove('navAnim') 
+            
+            //     }
+            // },{
+                //     root:null,
+                //     threshold:0
+                // })
+                // nav.observe(navAnime);
+                
+                
+const leftAnime = document.getElementById('left_anim'),
+      rightAnime = document.getElementById('right_anim');
+let leftA = new IntersectionObserver((inL,ob)=>{
+    let [inLL]=inL;
+    // console.log(entr)
+    if(inLL.isIntersecting){
+       leftAnime.classList.add('leftAnim') 
+    }
+},{
+    root:null,
+    threshold:0
+})
+leftA.observe(leftAnime)
+
+let righA = new IntersectionObserver((e,o)=>{
+    let [en]=e;
+    console.log(en)
+    if(en.isIntersecting){
+       rightAnime.classList.add('rightAnim') 
+    }
+},{
+    root:null,
+    threshold:0
+})
+righA.observe(rightAnime);
+
+
+// home animation 
+let mainHome = document.getElementById('main_hme'),
+     home_hy = document.getElementById('home_hy'),
+     home_name= document.getElementById('home_name'),
+     home_mortIN = document.getElementById('home_mortIN'),
+     home_btn = document.getElementById('home_btn'),
+     home_scroll = document.getElementById('home_scroll'),
+     home_intro = document.getElementById('home_intro');
+
+let home = new IntersectionObserver((inter,ob)=>{
+    let [e]=inter;
+    // console.log(en)
+    if(e.isIntersecting){
+       home_hy.classList.add('hy') 
+       home_name.classList.add('nameA') 
+       home_mortIN.classList.add('mortIN') 
+       home_btn.classList.add('btnA') 
+       home_intro.classList.add('introo') 
+       home_scroll.classList.add('scroll') 
+    }else{
+        home_name.classList.remove('nameA') 
+        home_hy.classList.remove('hy') 
+        home_mortIN.classList.remove('mortIN') 
+        home_btn.classList.remove('btnA') 
+        home_intro.classList.remove('introo') 
+        home_scroll.classList.remove('scroll') 
+
+    }
+},{
+    root:null,
+    threshold:0
+})
+home.observe(mainHome);
+
+
+
+// **** about section anim code
+const aboutSection = document.getElementById('about_section');
+const aboutLeft = document.getElementById('about_left');
+const aboutRight = document.getElementById('about_right');
+
+let aboutAnim = new IntersectionObserver((inr,obser)=>{
+    let [ib]=inr;
+    if(ib.isIntersecting){        
+        // aboutLeft.style.paddingTop = '0px';
+        aboutLeft.style.paddingTop = '0px';
+        aboutRight.style.paddingTop = '0px';
+        aboutLeft.style.opacity = '1'
+        aboutRight.style.opacity = '1'
+    }else{
+              // aboutLeft.style.paddingTop = '0px';
+              aboutLeft.style.paddingTop = '100px';
+              aboutLeft.style.opacity = '0'
+              aboutRight.style.paddingTop = '200px';
+              aboutRight.style.opacity = '0'
+    }
+},{
+    root:null,
+    threshold:0
+})
+aboutAnim.observe(aboutSection)
+
+// ***** skills anime code
+
+const skillsSection = document.getElementById('skill_section');
+const skillsLeft = document.getElementById('skill_up');
+const skillsRight = document.getElementById('skill_down');
+
+let skillsAnim = new IntersectionObserver((inrs,obsers)=>{
+    let [iss]=inrs;
+    if(iss.isIntersecting){        
+        // aboutLeft.style.paddingTop = '0px';
+        skillsLeft.style.paddingTop = '0px';
+        skillsRight.style.paddingTop = '0px';
+        skillsLeft.style.opacity = '1'
+        skillsRight.style.opacity = '1'
+    }else{
+              // aboutLeft.style.paddingTop = '0px';
+              skillsLeft.style.paddingTop = '100px';
+              skillsLeft.style.opacity = '0'
+              skillsRight.style.paddingTop = '100px';
+              skillsRight.style.opacity = '0'
+            }
+        },{
+            root:null,
+            threshold:0
+        })
+ skillsAnim.observe(skillsSection)
+        
+        
+        
+//******** Project anime code */
+const porjectSection = document.getElementById('project_anim');
+
+const projectBoxs = document.getElementsByClassName('one');
+
+let projectAnim = new IntersectionObserver((inrp,obserp)=>{
+    let [ip]=inrp;
+    if(ip.isIntersecting){        
+        for(let i = 0 ; i<projectBoxs.length;i++){
+            projectBoxs[i].style.marginTop = '10px';
+            projectBoxs[i].style.opacity = '1';
+            // console.log(i)
+        }
+    }
+    },{
+            root:null,
+            threshold:0 
+    })
+        projectAnim.observe(porjectSection)
+
+// **** nav bar code
+const nav = document.getElementById('nav_show');
+let navShow = document.getElementById('nav');
+nav.addEventListener('click',()=>{
+    navShow.style.top= '0%';
+    
+})
+const closeBtn = document.getElementById('close_btn');
+closeBtn.addEventListener('click',()=>{  
+    navShow.style.top= '-100%';
+})
+
+let as = document.getElementsByClassName('a');
+for(let i = 0; i < as.length; i++){
+    as[i].addEventListener('click',()=>{
+        navShow.style.top= '-100%';
+
+    })
+};
+
+
+// back to home anim in form .. code
+const backToHomeAnim = document.getElementById('anim_back_to_home');
+const backToformAnim = document.getElementById('form');
+const backToHomeA = new IntersectionObserver((ob,obb)=>{
+    let [interB]=ob;
+    if(interB.isIntersecting){
+        backToformAnim.style.opacity = '1';
+        backToformAnim.style.marginTop = '0px'
+    }
+    
+},{
+    root:null,
+    threshold:0
+});
+// backToHomeA.observe(backToHomeAnim);
+
+// show the get into touch form 
+// *** home btn show the another form (get into touch)
+
+home_btn.addEventListener("click",()=>{
+    backToHomeAnim.style.top  = '0%'
+    backToHomeAnim.style.opacity  = '1'
+})
+// *** close btn for  (another form)
+let closeBtnForFormAnother = document.getElementById('anotherBtnClose');
+closeBtnForFormAnother.addEventListener("click",()=>{
+    backToHomeAnim.style.top = '100%' 
+    backToHomeAnim.style.opacity = '0.4' 
+    
+})
+
+// **** thanks page code
+let btnOfThanksPage = document.getElementById('close_btn_of_thanksPage');
+let thanksPage = document.getElementById('pageOfThanks'); 
+btnOfThanksPage.addEventListener('click',()=>{
+    backToHomeAnim.style.opacity = '0.4'
+    backToHomeAnim.style.top = '100%'
+    thanksPage.style.top = '100%'
+    thanksPage.style.opacity = '0.4'
+
+});
+// ***** form code
+const fun = (e)=>{
+    event.preventDefault();
+
+    
+
+    // if form is sumbit succes fully and then fire this btn
+    thanksPage.style.top = '0%'
+    thanksPage.style.opacity = '1'
+}
+
+
+</script>
+</body>
+</html>
